@@ -1,0 +1,17 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f987ea6e;
+}
+.encabezado {
+    background-color: #f987ea;
+    text-align: center;
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pedidosp {
+    text-align: center;
+}

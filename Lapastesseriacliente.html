@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lapastisseriacliente</title>
+    <link rel="stylesheet" href="./lapastisseriacliente.css">
+</head>
+<body>
+    <section>
+        <div class="encabezado" id="encabezado">
+            <img src="./la pastisseria (1).png" alt="Logo las pastisseria" id="logo">
+        </div>
+    </section>
+    <h2>Menú</h2>
+    <section class="info" id="info">
+            
+        <div class="sabores" id="sabores">
+            <H3>Sabores</H3>
+            <ul>
+                <li>Cholcolate.........................indv $50 familiar $250</li>
+                <li>Fresa.................................indv $50 familiar $250</li>
+                <li>Vainilla...............................indv $50 familiar $250</li>
+                <li>Tres leches........................indv $60 familiar $280</li>
+                <li>Café...................................indv $50 familiar $250</li>
+                <li>Tres chocolates.................indv $70 familiar $300</li>
+                <li>Naranja..............................indv $50 familiar $250</li>
+            </ul>
+        </div>
+        <div class="adornos" id="adornos">
+            <h3>Adornos</h3>
+            <ul>
+                <li>Nombre en betún........................ind +$5 familiar +$15</li>
+                <li>Bandera con nombre................ind +$10 familiar +$20</li>
+                <li>Dibujo en betún..........................ind +$5 familiar +$15</li>
+                <li>Nombre en fondant...................ind +$10 familiar +$20</li>
+                <li>Dibujo en fondant.....................ind +$10 familiar +$20</li>
+            </ul>
+        </div>
+    </section>
+    <p class="nota" id="nota">*Cualquier sabor y adorno se puede combinar a su preferencia</p>
+
+    <hr>
+    <section>
+        <h2>Pedidos</h2>
+        <h3>Haz tu pedido</h3>
+        <form action="pedidos">
+            <p>¿Qué deseas ordenar?</p>
+            <h4>¿cuantos desea ordenar?</h4>
+            <label for="cuantosind">individuales</label>
+            <input type="number" name="cuantosind" id="cuantosind">
+            <br>
+            <label for="cuantosfam">Familiares</label>
+            <input type="number" name="cuantosfam" id="cuantosfam">
+            <h4>Sabor</h4>
+            <input type="checkbox" name="chocolate" id="chocolate">
+            <label for="chocolate">Pastel de chocolate</label>
+            <br>
+            <input type="checkbox" name="fresa" id="fresa">
+            <label for="fresa">Pastel de fresa</label>
+            <br>
+            <input type="checkbox" name="vainilla" id="vainilla">
+            <label for="vainilla">Pastel de vainilla</label>
+            <br>
+            <input type="checkbox" name="tresleches" id="tresleches">
+            <label for="tresleches">Pastel de tres leches</label>
+            <br>
+            <input type="checkbox" name="cafe" id="cafe">
+            <label for="cafe">Pastel de cafe</label>
+            <br>
+            <input type="checkbox" name="treschocolates" id="treschocolates">
+            <label for="treschocolates">Pastel de tres chocolates</label>
+            <br>
+            <input type="checkbox" name="naranja" id="naranja">
+            <label for="naranja">Pastel de naranja</label>
+            <br>
+            <h4>Adornos</h4>
+            <input type="checkbox" name="nombrebetun" id="nombrebetun">
+            <label for="nombrebetun">Nombre de betún</label>
+            <input type="checkbox" name="banderanombre" id="banderanombre">
+            <label for="banderanombre">Bandera con nombre</label>
+            <input type="checkbox" name="dibujobetun" id="dibujobetun">
+            <label for="dibujobetun">Dibujo de betún</label>
+            <input type="checkbox" name="nombrefondant" id="nombrefondant">
+            <label for="nombrefondant">Nombre de fondant</label>
+            <input type="checkbox" name="dibujofondant" id="dibujofondant">
+            <label for="dibujofondant">Dibujo de fondant</label>
+            <br><br>
+
+            <label for="descripcion">Describenos como quiers tu pastel o pasteles:</label><br>
+            <input type="text" name="descripcion" id="descripcion" placeholder="pastel de chocolate con fresa">
+
+            <br><br>
+
+            <label for="Nombre">Nombre:</label><br>
+            <input type="text" name="Nombre" id="Nombre" placeholder="¿A que nombre va el pedido?">
+
+            <br><br>
+
+            <label for="correo">Correo electronico:</label><br>
+            <input type="text" name="correo" id="correo" placeholder="pastel@dominio.com">
+
+            <br><br>
+
+            <label for="Telefono">Telefono:</label>
+            <input type="tel" name="Telefono" id="Telefono" maxlength="10" placeholder="¿tu numero de telefono">
+
+            <br><br>
+
+            <label for="direccion">Direccion:</label>
+            <input type="text" name="direccion" id="direccion" placeholder="¿A que direccion va el pedido?"><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Ubicacion</h2>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicacion</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>La calzada</td>
+                <td><a href="https://goo.gl/maps/q6pXmM78Z8j3vCoL8" target="_blank">C. Siete Colinas 1772, Independencia</a></td>
+                <td>Martes a Domingo de 9hrs a 19hrs</td>
+    </section>
+</body>
+</html>
